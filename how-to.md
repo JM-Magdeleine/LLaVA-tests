@@ -46,7 +46,7 @@ This directory contains all test results in csv format and have a results proces
 Tested on vicuna 13b. It does really well in terms of classification, but can sometimes be amiss for instruction following. Instead of answering with "dog", as asked, it sometimes will answer with puppy.
 
 ### Spreadsheet
-The vicuna 13b and 34b model were tested. The first to be tested is a low-res image, up to HD image, with an intermediary med-res image. This is to see if there is a resolution, starting from which/up which to which it works. There is then an adapted resolution, made so that it fits an integer number of patches for ViT.
+The vicuna 13b and 34b model were tested. The first to be tested is a low-res image, up to HD image, with an intermediary med-res image. This is to see if there is a resolution, starting from which/up to which it works. There is then an adapted resolution, made so that it fits an integer number of patches for ViT.
 
 - #### Gisting:
 13b does poorly, oftentimes confusing columns for others, and rows for other columns. Hallucinates rows if not indicated whether to think about if the row is there or not. It consistently does those errors: It is reasonable to think that the resolution has little to no effect on error.
