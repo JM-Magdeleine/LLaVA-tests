@@ -1,3 +1,4 @@
+# IMPORTS
 # Module imports for testing
 import os, time
 import plotext as plt
@@ -9,6 +10,10 @@ from llava.model.builder import load_pretrained_model
 from llava.mm_utils import get_model_name_from_path
 from llava.eval.run_llava import eval_model
 
+
+
+
+# WRAPPERS
 def get_class_from_filename(filename: str):
   # Retrieve class corresponding to picture
   image_class = filename.split(".")[0]
@@ -76,6 +81,10 @@ args = type('Args', (), {
     "max_new_tokens": 10
 })()
 
+
+
+
+# TESTING
 # Test globals
 num_tests = 10
 results = [0, 0, 0, 0]
