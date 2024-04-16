@@ -1,0 +1,502 @@
+[
+    {
+        "img": "0081",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0101",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0126",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0143",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0144",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0181",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0194",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0214",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "0244",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0294",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "0307",
+        "color": "red(maybe)",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0329",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "0405",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "0455",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "0473",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0482",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "0546",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0569",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "0580",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0583",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0593",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0688",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "0709",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "0722",
+        "color": "blue",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "0731",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0774",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0782",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "0784",
+        "color": "blue",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "0822",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "0827",
+        "color": "none",
+        "difficulty": "none"
+    },
+    {
+        "img": "0827",
+        "color": "none",
+        "difficulty": "none"
+    },
+    {
+        "img": "0925",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1094",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1117",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1117",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1145",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1152",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1154",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1178",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1184",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "1184",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "1189",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1211",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1212",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1248",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1255",
+        "color": "blue",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1302",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1338",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1383",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1428",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1446",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1452",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1462",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1489",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1505",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1540",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1550",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1551",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1595",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1619",
+        "color": "blue",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1625",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1627",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1644",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1656",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1661",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1759",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1781",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1806",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "1844",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "1867",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1941",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "1943",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "1949",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2021",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2060",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2073",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2086",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2095",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2123",
+        "color": "blue",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2124",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2143",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2158",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2180",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "2211",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2294",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2328",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2403",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2459",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2491",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2510",
+        "color": "blue",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2519",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2544",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2555",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2605",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2607",
+        "color": "red",
+        "difficulty": "hard"
+    },
+    {
+        "img": "2620",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2646",
+        "color": "red",
+        "difficulty": "veryhard"
+    },
+    {
+        "img": "2696",
+        "color": "red",
+        "difficulty": "impossible"
+    },
+    {
+        "img": "2711",
+        "color": "red",
+        "difficulty": "easy"
+    },
+    {
+        "img": "2712",
+        "color": "red",
+        "difficulty": "easy"
+    }
+]
