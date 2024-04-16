@@ -1,3 +1,8 @@
+"""
+Script to test LLaVA-NEXT ability to comprehend the broad lines of what is inputed, by asking it to summarize what it sees.
+The results are output to a csv, to be manually reviewed.
+"""
+# IMPORTS
 # Module imports for testing
 import time, sys
 import pandas as pd
@@ -8,11 +13,24 @@ from llava.model.builder import load_pretrained_model
 from llava.mm_utils import get_model_name_from_path
 from llava.eval.run_llava_test import eval_model
 
+
+# GLOBALS
 # Interpret command line inputs
 model_descriptor = sys.argv[1]
 image_descriptor = sys.argv[2]
 
-# Loading model
+# LLaVA globals
+prompt = "Describe each row and each column of this spreadsheet"
+
+test_files_dir = "/home/jmarie/tests/test-files/"
+result_file_dir = "/home/jmarie/tests/test-results/summarization/"
+treated_descriptor = "-adapted-res" if image_descriptor == "adapted" else ("-high-res" if image_descriptor == "high" else ("-med-res" if image_descriptor == "med" else ""))
+image_file_dir = test_files_dir + "budget-test" + treated_descriptor + ".png"
+
+
+
+
+# LOADING MODEL
 if model_descriptor == 'light':
   model_path = "liuhaotian/llava-v1.6-vicuna-13b"
 elif model_descriptor == 'full':
@@ -24,14 +42,6 @@ tokenizer, model, image_processor, context_len = load_pretrained_model(
     model_name=get_model_name_from_path(model_path),
     load_4bit=True
 )
-
-# LLaVA globals
-prompt = "Describe each row and each column of this spreadsheet"
-
-test_files_dir = "/home/jmarie/tests/test-files/"
-result_file_dir = "/home/jmarie/tests/test-results/summarization/"
-treated_descriptor = "-adapted-res" if image_descriptor == "adapted" else ("-high-res" if image_descriptor == "high" else ("-med-res" if image_descriptor == "med" else ""))
-image_file_dir = test_files_dir + "budget-test" + treated_descriptor + ".png"
 
 model_string = get_model_name_from_path(model_path).replace("llava-v1.6-", "")
 args = type('Args', (), {
@@ -51,7 +61,10 @@ args = type('Args', (), {
     "context_len": context_len
 })()
 
-# Test variables
+
+
+
+# TESTING
 outputs = []
 gen_times = []
 
@@ -62,5 +75,9 @@ gen_times.append(gen_time)
 end_time = time.time()
 
 print("Test time -----------------> ", end_time - start_time, "s")
+
+
+
+# OUTPUTTING RESULTS
 outFrame = pd.DataFrame(data = [[output, gen_time] for output,gen_time in zip(outputs,gen_times)], columns = ["Outputs", "Generation time"])
 outFrame.to_csv(result_file_dir + model_string + treated_descriptor + '.csv')

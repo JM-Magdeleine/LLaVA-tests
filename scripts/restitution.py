@@ -1,3 +1,8 @@
+"""
+Script to test LLaVA-NEXT on its ability to give back what it sees in a picture, by asking it to convert to csv file.
+Outputs the raw answer to a csv file, regardless of whether the size is right or not.
+"""
+# IMPORTS
 # Module imports for testing
 import time, sys
 import pandas as pd
@@ -7,11 +12,16 @@ from pytimedinput import timedInput
 # Model imports
 from llava.model.builder import load_pretrained_model
 from llava.mm_utils import get_model_name_from_path
-from llava.eval.run_llava_test import eval_model #run_llava was modified so as to not reload the model at each eval_model call, USE _test VERSION
+from llava.eval.run_llava_test import eval_model
+"""run_llava was modified so as to not reload the model at each eval_model call, USE _test VERSION"""
 
-# Helper functions
+
+
+
+
+# WRAPPERS
 def OutputToDF(output):
-  # Function to take output of the LLM and convert it to a pd DataFrame
+  # Take output of the LLM and convert it to a pd DataFrame
   
   # Not elegant way to ignore newline characters, couldn't get them to strip with split with re
   csv_txt = output.split("```")[1][1:-1]
@@ -23,14 +33,27 @@ def OutputToDF(output):
   return pd.DataFrame(data = csv_format[1:], columns =csv_format[0])
 
 def get_image_file_dir(image_descriptor):
+  # Get file directory string corresponding to image indicated by descriptor
   treated_descriptor = "-adapted-res" if image_descriptor == "adapted" else ("-high-res" if image_descriptor == "high" else ("-med-res" if image_descriptor == "med" else ""))
   image_file_dir = test_files_dir + "budget-test" + treated_descriptor + ".png"
 
   return image_file_dir, treated_descriptor
 
+
+
+
+
+# GLOBALS
 # Interpret command line inputs
 model_descriptor = sys.argv[1]
 image_descriptor = sys.argv[2]
+
+# LLaVA globals
+prompt = "Convert this image into a .csv file:"
+
+test_files_dir = "/home/jmarie/tests/test-files/"
+result_file_dir = "/home/jmarie/tests/test-results/restitution/"
+image_file_dir, treated_descriptor = get_image_file_dir(image_descriptor)
 
 # Loading model
 if model_descriptor == 'light':
@@ -44,13 +67,6 @@ tokenizer, model, image_processor, context_len = load_pretrained_model(
     model_name=get_model_name_from_path(model_path),
     load_4bit=True
 )
-
-# LLaVA globals
-prompt = "Convert this image into a .csv file:"
-
-test_files_dir = "/home/jmarie/tests/test-files/"
-result_file_dir = "/home/jmarie/tests/test-results/restitution/"
-image_file_dir, treated_descriptor = get_image_file_dir(image_descriptor)
 
 model_string = get_model_name_from_path(model_path).replace("llava-v1.6-", "")
 args = type('Args', (), {
@@ -70,18 +86,20 @@ args = type('Args', (), {
     "context_len": context_len
 })()
 
-# Run test
+# TEST
 run_test = True
 test_time = 0
 
 while run_test:
   # Run the test
   output, gen_time = eval_model(args)
+
+  # Output results
+  test_time += gen_time
   outFrame = OutputToDF(output)
   outFrame.to_csv(result_file_dir + model_string + treated_descriptor + '.csv')
-  test_time += gen_time
   
-  # Once again?
+  # Another test?
   run_test, timed_out = timedInput(prompt = "Model has finished generating, continue the test ?\n",
                         timeout = 10)
   run_test = True if run_test == 'y' else False
