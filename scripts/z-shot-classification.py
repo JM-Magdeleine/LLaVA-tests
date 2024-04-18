@@ -80,7 +80,7 @@ def classify(model_path, img_list, desc):
 
 
 # VARIABLES
-# Variables used throughout
+# Globals
 files_dir = "/home/jmarie/flares/positive_img/"
 result_dir = "/home/jmarie/flares/"
 img_dict_list = []
