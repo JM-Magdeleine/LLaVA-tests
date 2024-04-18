@@ -20,8 +20,8 @@ Error for image 1943. Incorrectly classified as: red. Was easy to tell.
 Error for image 2073. Incorrectly classified as: red. Was easy to tell.
 Error for image 2123. Incorrectly classified as: red. Was easy to tell.
 Error for image 2510. Incorrectly classified as: red. Was hard to tell.
-In the end, detected the blue flares 0.0% of the time.
-In the end, detected the red flares 100.0% of the time.
+In the end, detected 0.0% of blue flares.
+In the end, detected 100.0% of red flares.
 Confusion matrix for blue identification:
 TP: 0    FN: 19
 FP: 0    TN: 78
@@ -107,12 +107,13 @@ Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
 Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
 Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
 Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
-In the end, detected the blue flares 100.0% of the time.
-In the end, detected the red flares 0.0% of the time.
+In the end, detected 100.0% of blue flares.
+In the end, detected 0.0% of red flares.
 Confusion matrix for blue identification:
 TP: 19    FN: 0
 FP: 78    TN: 0
 
+F1 score: 0.3275862068965517
 ------------------ Testing for 13b on blue obvious------------------
 
 Error for image 81. Incorrectly classified as: red. Was easy to tell.
@@ -135,8 +136,8 @@ Error for image 1943. Incorrectly classified as: red. Was easy to tell.
 Error for image 2073. Incorrectly classified as: red. Was easy to tell.
 Error for image 2123. Incorrectly classified as: red. Was easy to tell.
 Error for image 2510. Incorrectly classified as: red. Was hard to tell.
-In the end, detected the blue flares 0.0% of the time.
-In the end, detected the red flares 100.0% of the time.
+In the end, detected 0.0% of blue flares.
+In the end, detected 100.0% of red flares.
 Confusion matrix for blue identification:
 TP: 0    FN: 19
 FP: 0    TN: 78
@@ -163,8 +164,8 @@ Error for image 1943. Incorrectly classified as: red. Was easy to tell.
 Error for image 2073. Incorrectly classified as: red. Was easy to tell.
 Error for image 2123. Incorrectly classified as: red. Was easy to tell.
 Error for image 2510. Incorrectly classified as: red. Was hard to tell.
-In the end, detected the blue flares 0.0% of the time.
-In the end, detected the red flares 100.0% of the time.
+In the end, detected 0.0% of blue flares.
+In the end, detected 100.0% of red flares.
 Confusion matrix for blue identification:
 TP: 0    FN: 19
 FP: 0    TN: 78
@@ -250,12 +251,13 @@ Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
 Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
 Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
 Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
-In the end, detected the blue flares 100.0% of the time.
-In the end, detected the red flares 0.0% of the time.
+In the end, detected 100.0% of blue flares.
+In the end, detected 0.0% of red flares.
 Confusion matrix for blue identification:
 TP: 19    FN: 0
 FP: 78    TN: 0
 
+F1 score: 0.3275862068965517
 ------------------ Testing for 34b on blue obvious------------------
 
 Error for image 101. Incorrectly classified as: blue. Was easy to tell.
@@ -337,12 +339,13 @@ Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
 Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
 Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
 Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
-In the end, detected the blue flares 100.0% of the time.
-In the end, detected the red flares 0.0% of the time.
+In the end, detected 100.0% of blue flares.
+In the end, detected 0.0% of red flares.
 Confusion matrix for blue identification:
 TP: 19    FN: 0
 FP: 78    TN: 0
 
+F1 score: 0.3275862068965517
 ------------------ Testing for 13b on blue hard------------------
 
 Error for image 81. Incorrectly classified as: red. Was easy to tell.
@@ -365,8 +368,8 @@ Error for image 1943. Incorrectly classified as: red. Was easy to tell.
 Error for image 2073. Incorrectly classified as: red. Was easy to tell.
 Error for image 2123. Incorrectly classified as: red. Was easy to tell.
 Error for image 2510. Incorrectly classified as: red. Was hard to tell.
-In the end, detected the blue flares 0.0% of the time.
-In the end, detected the red flares 100.0% of the time.
+In the end, detected 0.0% of blue flares.
+In the end, detected 100.0% of red flares.
 Confusion matrix for blue identification:
 TP: 0    FN: 19
 FP: 0    TN: 78
@@ -452,9 +455,10 @@ Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
 Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
 Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
 Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
-In the end, detected the blue flares 100.0% of the time.
-In the end, detected the red flares 0.0% of the time.
+In the end, detected 100.0% of blue flares.
+In the end, detected 0.0% of red flares.
 Confusion matrix for blue identification:
 TP: 19    FN: 0
 FP: 78    TN: 0
 
+F1 score: 0.3275862068965517

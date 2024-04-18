@@ -7,7 +7,7 @@ def raise_flag(image_file, predicted_class, ground_truth, difficulty):
     if (predicted_class != "blue") & (predicted_class != "red"):
         interpreted_results.write("Error for image " + str(image_file) + ". Could not find a color.\n")
         return
-    interpreted_results.write("Error for image " + str(image_file) + ". Expected: " + ground_truth + ", got: " + predicted_class + ". Was " + difficulty + " to tell.\n")
+    interpreted_results.write("Error for image " + str(image_file) + ". Incorrectly classified as: " + predicted_class + ". Was " + difficulty + " to tell.\n")
 
     return
 
@@ -24,17 +24,19 @@ def write_confusion_matrix(confusion_matrix):
     interpreted_results.write("Confusion matrix for blue identification:\nTP: " + str(TP) + "    FN: "+ str(FN) + "\n")
     interpreted_results.write("FP: " + str(FP) + "    TN: " + str(TN) + "\n\n")
 
+    return
+
 def compute_F1_score(confusion_matrix):
     TN = confusion_matrix["TN"]
     TP = confusion_matrix["TP"]
     FN = confusion_matrix["FN"]
     FP = confusion_matrix["FP"]
+    
+    precision = TP / (TP + FP) if TP + FP != 0
+    recall = TP / (TP + FN) if TP + FN != 0
 
-    if TP + FN != 0 and TP + FP != 0:
-        precision = TP / (TP + FP)
-        recall = TP / (TP + FP)
-
-        return 2*(precision+recall) / (precision+recall)
+    if precision + recall != 0
+        return 2*precision*recall / (precision+recall)
 
     return None
 
@@ -43,6 +45,8 @@ def write_F1_score(confusion_matrix):
 
     if F1 is not None:
         interpreted_results.write("F1 score: " + str(F1) + "\n")
+
+    return
     
 def corr(confusion_matrix):
     j = np.ones(2, dtype=int)
@@ -55,12 +59,17 @@ def corr(confusion_matrix):
     sum_x2 = np.dot(np.dot(np.transpose(r2), confusion_matrix), j)
     sum_y2 = np.dot(np.dot(np.transpose(j), confusion_matrix), r2)
     sum_xy = np.dot(np.dot(np.transpose(r), confusion_matrix), r)
-    
-    return (n*sum_xy - sum_x*sum_y)/(np.sqrt(n*sum_x2 - sum_x**2) * np.sqrt(n*sum_y2 - sum_y**2))
+
+    if np.sqrt(n*sum_x2 - sum_x**2) * np.sqrt(n*sum_y2 - sum_y**2) != 0:
+        return (n*sum_xy - sum_x*sum_y)/(np.sqrt(n*sum_x2 - sum_x**2) * np.sqrt(n*sum_y2 - sum_y**2))
+
+    return None
     
 def write_corr_coeff(confusion_matrix):
     corr_coeff = corr(confusion_matrix)
-    interpreted_results.write("r = " + str(corr_coeff) + "\n")
+
+    if corr_coeff is not None:
+        interpreted_results.write("r = " + str(corr_coeff) + "\n")
 
     return
 

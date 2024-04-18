@@ -32,7 +32,7 @@ Confusion matrix for blue identification:
 TP: 15    FN: 4
 FP: 22    TN: 57
 
-F1 score: 2.0
+F1 score: 0.5357142857142857
 r = 0.41671510052131167
 ------------------ Testing for 13b on 100images ------------------
 
@@ -54,5 +54,5 @@ Confusion matrix for blue identification:
 TP: 8    FN: 11
 FP: 1    TN: 78
 
-F1 score: 2.0
+F1 score: 0.5714285714285714
 r = 0.5590541431204009
