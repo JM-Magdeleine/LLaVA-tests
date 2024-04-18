@@ -26,12 +26,13 @@ Error for image 2491. Expected: red, got: blue. Was easy to tell.
 Error for image 2510. Expected: blue, got: red. Was hard to tell.
 Error for image 2519. Expected: red, got: blue. Was hard to tell.
 Error for image 2712. Expected: red, got: blue. Was easy to tell.
-In the end, detected the blue flares 78.94736842105263% of the time.
-In the end, detected the red flares 72.15189873417721% of the time.
+In the end, detected 78.94736842105263% of blue flares.
+In the end, detected 72.15189873417721% of red flares.
 Confusion matrix for blue identification:
 TP: 15    FN: 4
 FP: 22    TN: 57
 
+F1 score: 2.0
 r = 0.41671510052131167
 ------------------ Testing for 13b on 100images ------------------
 
@@ -47,10 +48,11 @@ Error for image 1383. Expected: blue, got: red. Was easy to tell.
 Error for image 1619. Expected: blue, got: red. Was hard to tell.
 Error for image 2123. Expected: blue, got: red. Was easy to tell.
 Error for image 2510. Expected: blue, got: red. Was hard to tell.
-In the end, detected the blue flares 42.10526315789474% of the time.
-In the end, detected the red flares 98.73417721518987% of the time.
+In the end, detected 42.10526315789474% of blue flares.
+In the end, detected 98.73417721518987% of red flares.
 Confusion matrix for blue identification:
 TP: 8    FN: 11
 FP: 1    TN: 78
 
+F1 score: 2.0
 r = 0.5590541431204009

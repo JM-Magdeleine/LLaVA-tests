@@ -2,7 +2,7 @@ import os
 import pandas as pd
 import numpy as np
 
-# Wrappers
+# WRAPPERS
 def raise_flag(image_file, predicted_class, ground_truth, difficulty):
     if (predicted_class != "blue") & (predicted_class != "red"):
         interpreted_results.write("Error for image " + str(image_file) + ". Could not find a color.\n")
@@ -24,6 +24,26 @@ def write_confusion_matrix(confusion_matrix):
     interpreted_results.write("Confusion matrix for blue identification:\nTP: " + str(TP) + "    FN: "+ str(FN) + "\n")
     interpreted_results.write("FP: " + str(FP) + "    TN: " + str(TN) + "\n\n")
 
+def compute_F1_score(confusion_matrix):
+    TN = confusion_matrix["TN"]
+    TP = confusion_matrix["TP"]
+    FN = confusion_matrix["FN"]
+    FP = confusion_matrix["FP"]
+
+    if TP + FN != 0 and TP + FP != 0:
+        precision = TP / (TP + FP)
+        recall = TP / (TP + FP)
+
+        return 2*(precision+recall) / (precision+recall)
+
+    return None
+
+def write_F1_score(confusion_matrix):
+    F1 = compute_F1_score(confusion_matrix)
+
+    if F1 is not None:
+        interpreted_results.write("F1 score: " + str(F1) + "\n")
+    
 def corr(confusion_matrix):
     j = np.ones(2, dtype=int)
     r = np.asarray([k for k in range(1, 3)])
@@ -43,7 +63,10 @@ def write_corr_coeff(confusion_matrix):
     interpreted_results.write("r = " + str(corr_coeff) + "\n")
 
     return
-    
+
+
+
+# PROCESSING
 # Create and open an interpreted results file
 interpreted_results = open("results.txt", "w")
 
@@ -90,12 +113,12 @@ for result_csv in dir_list:
             
             raise_flag(results_df['imgs'][row], predicted_class, ground_truth, results_df['difficulties'][row])
 
-    interpreted_results.write("In the end, detected the blue flares " + str(100 * TP/(TP + FN)) + "% of the time.\n")
-    interpreted_results.write("In the end, detected the red flares " + str(100 * TN/(TN + FP)) + "% of the time.\n")
+    interpreted_results.write("In the end, detected " + str(100 * TP/(TP + FN)) + "% of blue flares.\n")
+    interpreted_results.write("In the end, detected " + str(100 * TN/(TN + FP)) + "% of red flares.\n")
     
     confusion_matrix = {"TP": TP, "FN": FN, "FP": FP, "TN": TN}
-    
     write_confusion_matrix(confusion_matrix)
+    write_F1_score(confusion_matrix)
     write_corr_coeff(np.asarray([confusion_matrix[key] for key in confusion_matrix]).reshape((2, 2)))
 
 interpreted_results.close()
