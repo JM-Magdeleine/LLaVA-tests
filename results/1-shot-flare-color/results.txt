@@ -1,0 +1,460 @@
+------------------ Testing for 13b on red hard------------------
+
+Error for image 81. Incorrectly classified as: red. Was easy to tell.
+Error for image 194. Incorrectly classified as: red. Was easy to tell.
+Error for image 244. Incorrectly classified as: red. Was easy to tell.
+Error for image 307. Incorrectly classified as: red. Was easy to tell.
+Error for image 546. Incorrectly classified as: red. Was easy to tell.
+Error for image 580. Incorrectly classified as: red. Was easy to tell.
+Error for image 722. Incorrectly classified as: red. Was impossible to tell.
+Error for image 784. Incorrectly classified as: red. Was impossible to tell.
+Error for image 1152. Incorrectly classified as: red. Was easy to tell.
+Error for image 1255. Incorrectly classified as: red. Was hard to tell.
+Error for image 1383. Incorrectly classified as: red. Was easy to tell.
+Error for image 1462. Incorrectly classified as: red. Was easy to tell.
+Error for image 1551. Incorrectly classified as: red. Was easy to tell.
+Error for image 1619. Incorrectly classified as: red. Was hard to tell.
+Error for image 1656. Incorrectly classified as: red. Was easy to tell.
+Error for image 1759. Incorrectly classified as: red. Was easy to tell.
+Error for image 1943. Incorrectly classified as: red. Was easy to tell.
+Error for image 2073. Incorrectly classified as: red. Was easy to tell.
+Error for image 2123. Incorrectly classified as: red. Was easy to tell.
+Error for image 2510. Incorrectly classified as: red. Was hard to tell.
+In the end, detected the blue flares 0.0% of the time.
+In the end, detected the red flares 100.0% of the time.
+Confusion matrix for blue identification:
+TP: 0    FN: 19
+FP: 0    TN: 78
+
+------------------ Testing for 34b on red obvious------------------
+
+Error for image 101. Incorrectly classified as: blue. Was easy to tell.
+Error for image 126. Incorrectly classified as: blue. Was easy to tell.
+Error for image 143. Incorrectly classified as: blue. Was hard to tell.
+Error for image 144. Incorrectly classified as: blue. Was hard to tell.
+Error for image 181. Incorrectly classified as: blue. Was hard to tell.
+Error for image 214. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 294. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 307. Incorrectly classified as: blue. Was easy to tell.
+Error for image 329. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 405. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 455. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 473. Incorrectly classified as: blue. Was hard to tell.
+Error for image 482. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 569. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 583. Incorrectly classified as: blue. Was hard to tell.
+Error for image 593. Incorrectly classified as: blue. Was hard to tell.
+Error for image 688. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 709. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 731. Incorrectly classified as: blue. Was easy to tell.
+Error for image 774. Incorrectly classified as: blue. Was easy to tell.
+Error for image 782. Incorrectly classified as: blue. Was hard to tell.
+Error for image 822. Incorrectly classified as: blue. Was easy to tell.
+Error for image 925. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1094. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1145. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1154. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1178. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1189. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1211. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1212. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1248. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1302. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1338. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1428. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1446. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1452. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1489. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1505. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1540. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1550. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1595. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1625. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1627. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1644. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1661. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1781. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1806. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1844. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1867. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1941. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1949. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2021. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2060. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2086. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2095. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2124. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2143. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2158. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2180. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2211. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2294. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2328. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2403. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2459. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2491. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2519. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2544. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2555. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2605. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2607. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2620. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
+In the end, detected the blue flares 100.0% of the time.
+In the end, detected the red flares 0.0% of the time.
+Confusion matrix for blue identification:
+TP: 19    FN: 0
+FP: 78    TN: 0
+
+------------------ Testing for 13b on blue obvious------------------
+
+Error for image 81. Incorrectly classified as: red. Was easy to tell.
+Error for image 194. Incorrectly classified as: red. Was easy to tell.
+Error for image 244. Incorrectly classified as: red. Was easy to tell.
+Error for image 307. Incorrectly classified as: red. Was easy to tell.
+Error for image 546. Incorrectly classified as: red. Was easy to tell.
+Error for image 580. Incorrectly classified as: red. Was easy to tell.
+Error for image 722. Incorrectly classified as: red. Was impossible to tell.
+Error for image 784. Incorrectly classified as: red. Was impossible to tell.
+Error for image 1152. Incorrectly classified as: red. Was easy to tell.
+Error for image 1255. Incorrectly classified as: red. Was hard to tell.
+Error for image 1383. Incorrectly classified as: red. Was easy to tell.
+Error for image 1462. Incorrectly classified as: red. Was easy to tell.
+Error for image 1551. Incorrectly classified as: red. Was easy to tell.
+Error for image 1619. Incorrectly classified as: red. Was hard to tell.
+Error for image 1656. Incorrectly classified as: red. Was easy to tell.
+Error for image 1759. Incorrectly classified as: red. Was easy to tell.
+Error for image 1943. Incorrectly classified as: red. Was easy to tell.
+Error for image 2073. Incorrectly classified as: red. Was easy to tell.
+Error for image 2123. Incorrectly classified as: red. Was easy to tell.
+Error for image 2510. Incorrectly classified as: red. Was hard to tell.
+In the end, detected the blue flares 0.0% of the time.
+In the end, detected the red flares 100.0% of the time.
+Confusion matrix for blue identification:
+TP: 0    FN: 19
+FP: 0    TN: 78
+
+------------------ Testing for 13b on red obvious------------------
+
+Error for image 81. Incorrectly classified as: red. Was easy to tell.
+Error for image 194. Incorrectly classified as: red. Was easy to tell.
+Error for image 244. Incorrectly classified as: red. Was easy to tell.
+Error for image 307. Incorrectly classified as: red. Was easy to tell.
+Error for image 546. Incorrectly classified as: red. Was easy to tell.
+Error for image 580. Incorrectly classified as: red. Was easy to tell.
+Error for image 722. Incorrectly classified as: red. Was impossible to tell.
+Error for image 784. Incorrectly classified as: red. Was impossible to tell.
+Error for image 1152. Incorrectly classified as: red. Was easy to tell.
+Error for image 1255. Incorrectly classified as: red. Was hard to tell.
+Error for image 1383. Incorrectly classified as: red. Was easy to tell.
+Error for image 1462. Incorrectly classified as: red. Was easy to tell.
+Error for image 1551. Incorrectly classified as: red. Was easy to tell.
+Error for image 1619. Incorrectly classified as: red. Was hard to tell.
+Error for image 1656. Incorrectly classified as: red. Was easy to tell.
+Error for image 1759. Incorrectly classified as: red. Was easy to tell.
+Error for image 1943. Incorrectly classified as: red. Was easy to tell.
+Error for image 2073. Incorrectly classified as: red. Was easy to tell.
+Error for image 2123. Incorrectly classified as: red. Was easy to tell.
+Error for image 2510. Incorrectly classified as: red. Was hard to tell.
+In the end, detected the blue flares 0.0% of the time.
+In the end, detected the red flares 100.0% of the time.
+Confusion matrix for blue identification:
+TP: 0    FN: 19
+FP: 0    TN: 78
+
+------------------ Testing for 34b on blue hard------------------
+
+Error for image 101. Incorrectly classified as: blue. Was easy to tell.
+Error for image 126. Incorrectly classified as: blue. Was easy to tell.
+Error for image 143. Incorrectly classified as: blue. Was hard to tell.
+Error for image 144. Incorrectly classified as: blue. Was hard to tell.
+Error for image 181. Incorrectly classified as: blue. Was hard to tell.
+Error for image 214. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 294. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 307. Incorrectly classified as: blue. Was easy to tell.
+Error for image 329. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 405. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 455. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 473. Incorrectly classified as: blue. Was hard to tell.
+Error for image 482. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 569. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 583. Incorrectly classified as: blue. Was hard to tell.
+Error for image 593. Incorrectly classified as: blue. Was hard to tell.
+Error for image 688. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 709. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 731. Incorrectly classified as: blue. Was easy to tell.
+Error for image 774. Incorrectly classified as: blue. Was easy to tell.
+Error for image 782. Incorrectly classified as: blue. Was hard to tell.
+Error for image 822. Incorrectly classified as: blue. Was easy to tell.
+Error for image 925. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1094. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1145. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1154. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1178. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1189. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1211. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1212. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1248. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1302. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1338. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1428. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1446. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1452. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1489. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1505. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1540. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1550. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1595. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1625. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1627. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1644. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1661. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1781. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1806. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1844. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1867. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1941. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1949. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2021. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2060. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2086. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2095. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2124. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2143. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2158. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2180. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2211. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2294. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2328. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2403. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2459. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2491. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2519. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2544. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2555. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2605. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2607. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2620. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
+In the end, detected the blue flares 100.0% of the time.
+In the end, detected the red flares 0.0% of the time.
+Confusion matrix for blue identification:
+TP: 19    FN: 0
+FP: 78    TN: 0
+
+------------------ Testing for 34b on blue obvious------------------
+
+Error for image 101. Incorrectly classified as: blue. Was easy to tell.
+Error for image 126. Incorrectly classified as: blue. Was easy to tell.
+Error for image 143. Incorrectly classified as: blue. Was hard to tell.
+Error for image 144. Incorrectly classified as: blue. Was hard to tell.
+Error for image 181. Incorrectly classified as: blue. Was hard to tell.
+Error for image 214. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 294. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 307. Incorrectly classified as: blue. Was easy to tell.
+Error for image 329. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 405. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 455. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 473. Incorrectly classified as: blue. Was hard to tell.
+Error for image 482. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 569. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 583. Incorrectly classified as: blue. Was hard to tell.
+Error for image 593. Incorrectly classified as: blue. Was hard to tell.
+Error for image 688. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 709. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 731. Incorrectly classified as: blue. Was easy to tell.
+Error for image 774. Incorrectly classified as: blue. Was easy to tell.
+Error for image 782. Incorrectly classified as: blue. Was hard to tell.
+Error for image 822. Incorrectly classified as: blue. Was easy to tell.
+Error for image 925. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1094. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1145. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1154. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1178. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1189. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1211. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1212. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1248. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1302. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1338. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1428. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1446. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1452. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1489. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1505. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1540. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1550. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1595. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1625. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1627. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1644. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1661. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1781. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1806. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1844. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1867. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1941. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1949. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2021. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2060. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2086. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2095. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2124. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2143. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2158. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2180. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2211. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2294. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2328. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2403. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2459. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2491. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2519. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2544. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2555. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2605. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2607. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2620. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
+In the end, detected the blue flares 100.0% of the time.
+In the end, detected the red flares 0.0% of the time.
+Confusion matrix for blue identification:
+TP: 19    FN: 0
+FP: 78    TN: 0
+
+------------------ Testing for 13b on blue hard------------------
+
+Error for image 81. Incorrectly classified as: red. Was easy to tell.
+Error for image 194. Incorrectly classified as: red. Was easy to tell.
+Error for image 244. Incorrectly classified as: red. Was easy to tell.
+Error for image 307. Incorrectly classified as: red. Was easy to tell.
+Error for image 546. Incorrectly classified as: red. Was easy to tell.
+Error for image 580. Incorrectly classified as: red. Was easy to tell.
+Error for image 722. Incorrectly classified as: red. Was impossible to tell.
+Error for image 784. Incorrectly classified as: red. Was impossible to tell.
+Error for image 1152. Incorrectly classified as: red. Was easy to tell.
+Error for image 1255. Incorrectly classified as: red. Was hard to tell.
+Error for image 1383. Incorrectly classified as: red. Was easy to tell.
+Error for image 1462. Incorrectly classified as: red. Was easy to tell.
+Error for image 1551. Incorrectly classified as: red. Was easy to tell.
+Error for image 1619. Incorrectly classified as: red. Was hard to tell.
+Error for image 1656. Incorrectly classified as: red. Was easy to tell.
+Error for image 1759. Incorrectly classified as: red. Was easy to tell.
+Error for image 1943. Incorrectly classified as: red. Was easy to tell.
+Error for image 2073. Incorrectly classified as: red. Was easy to tell.
+Error for image 2123. Incorrectly classified as: red. Was easy to tell.
+Error for image 2510. Incorrectly classified as: red. Was hard to tell.
+In the end, detected the blue flares 0.0% of the time.
+In the end, detected the red flares 100.0% of the time.
+Confusion matrix for blue identification:
+TP: 0    FN: 19
+FP: 0    TN: 78
+
+------------------ Testing for 34b on red hard------------------
+
+Error for image 101. Incorrectly classified as: blue. Was easy to tell.
+Error for image 126. Incorrectly classified as: blue. Was easy to tell.
+Error for image 143. Incorrectly classified as: blue. Was hard to tell.
+Error for image 144. Incorrectly classified as: blue. Was hard to tell.
+Error for image 181. Incorrectly classified as: blue. Was hard to tell.
+Error for image 214. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 294. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 307. Incorrectly classified as: blue. Was easy to tell.
+Error for image 329. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 405. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 455. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 473. Incorrectly classified as: blue. Was hard to tell.
+Error for image 482. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 569. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 583. Incorrectly classified as: blue. Was hard to tell.
+Error for image 593. Incorrectly classified as: blue. Was hard to tell.
+Error for image 688. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 709. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 731. Incorrectly classified as: blue. Was easy to tell.
+Error for image 774. Incorrectly classified as: blue. Was easy to tell.
+Error for image 782. Incorrectly classified as: blue. Was hard to tell.
+Error for image 822. Incorrectly classified as: blue. Was easy to tell.
+Error for image 925. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1094. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1117. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1145. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1154. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1178. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1184. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1189. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1211. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1212. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1248. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1302. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1338. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1428. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1446. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1452. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1489. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1505. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1540. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1550. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1595. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1625. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1627. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1644. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1661. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1781. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1806. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 1844. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 1867. Incorrectly classified as: blue. Was easy to tell.
+Error for image 1941. Incorrectly classified as: blue. Was hard to tell.
+Error for image 1949. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2021. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2060. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2086. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2095. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2124. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2143. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2158. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2180. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2211. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2294. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2328. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2403. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2459. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2491. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2519. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2544. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2555. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2605. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2607. Incorrectly classified as: blue. Was hard to tell.
+Error for image 2620. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2646. Incorrectly classified as: blue. Was veryhard to tell.
+Error for image 2696. Incorrectly classified as: blue. Was impossible to tell.
+Error for image 2711. Incorrectly classified as: blue. Was easy to tell.
+Error for image 2712. Incorrectly classified as: blue. Was easy to tell.
+In the end, detected the blue flares 100.0% of the time.
+In the end, detected the red flares 0.0% of the time.
+Confusion matrix for blue identification:
+TP: 19    FN: 0
+FP: 78    TN: 0
+
