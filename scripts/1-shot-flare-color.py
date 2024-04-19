@@ -6,6 +6,13 @@ Corresponding csv files in test-results:
 "blue-hard": The example is a small blue flare, 0849.png
 "red-hard": The example is a small red flare, 1299.png
 
+Results are one csv file per model per example, with each column corresponding to:
+    imgs: image files in the positive_img directory
+    grund_truths: ground truth color red/blue
+    predictions: predicted color red/blue
+    gen_times: generation time for the given answer 
+    difficulties: difficulty to predict image
+
 NOTE: The only values that change from test to test are:
     reference: change to name of corresponding file
     output file: its name change correponding to which file it is tested on
