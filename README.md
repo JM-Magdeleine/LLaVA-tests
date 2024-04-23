@@ -40,7 +40,7 @@ Results are output in a .csv format, the organization of which is specified in e
 - #### Gisting:
 - Prompt: "What does the [nth] [column/row] do?"
 
-- #### Information retrieval:
+- #### Restitution:
 - Prompt: "Convert this image into a .csv file:"
 
 ### Flare classification:
