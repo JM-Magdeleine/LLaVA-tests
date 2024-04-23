@@ -60,7 +60,7 @@ def sanitize_output(output):
   output_words = output.split(" ")
 
   for word in output_words:
-    if ("no" in word) or ("yes" in word):
+    if (word == "no") or (word == "yes"):
       return word
 
   return ""
@@ -70,7 +70,7 @@ def generate_prompt(test):
   return prompt1 + ("contains" if "positive" in test else "does not contain") + prompt2
 
 def get_reference_image(test):
-  # Get the right absolute image path according to the test being run
+  # Get the absolute image path according to the test being run
   if "positive" in test:
     if "obvious" in test:
       return os.path.join(os.path.join(test_files_dir, "positive_img"), "0011.png")
